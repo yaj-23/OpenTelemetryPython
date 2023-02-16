@@ -1,0 +1,8 @@
+version: '4.16'
+services:
+  user:
+    container_name: todo
+    build: todo
+    ports:
+      - 2001:2000
+  
